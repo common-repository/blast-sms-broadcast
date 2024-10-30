@@ -1,0 +1,87 @@
+.wrap>p {
+    margin: 0;
+}
+
+#adminmenu .toplevel_page_ifmal-options .wp-menu-image img {
+    max-width: unset;
+    padding: 0;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select,
+.form-group .input-group {
+    width: 25rem;
+    max-width: 100%;
+}
+
+.form-group.row > div {
+    align-self: top;
+}
+
+.card-header {
+    border-left: 1px solid rgba(0,0,0,.125) !important;
+    border-right: 1px solid rgba(0,0,0,.125) !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.card-header:first-child {
+    border-top: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.collapse,
+.collapsing {
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-top: 0 !important;
+}
+
+.wp-core-ui .button-primary[type*="submit"] {
+    margin-top: 20px;
+}
+
+i.fa-question-circle {
+    margin-left: 5px;
+}
+
+.select2-container {
+    max-width: 100%;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-dropdown.select2-dropdown--below {
+    border: 1px solid #7e8993 !important;
+}
+
+.select2-container .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: calc(2.25rem + 2px) !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: calc(2.25rem + 2px) !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    font-size: .8rem !important;
+    margin-bottom: 0 !important;
+}
+
+.select2-results__option {
+    margin-bottom: 0 !important;
+}
+
+.custom-switch {
+    padding-left: 4rem !important;
+}
+
+.custom-switch .custom-control-label {
+    transform: scale(1.7) !important;
+}
+
+.input-group-text {
+    line-height: 1.7 !important;
+}
+
+small {
+    font-size: .7em !important;
+}
